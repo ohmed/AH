@@ -7,6 +7,7 @@ def check_password_strength(password):
 	digit_error = not any(char.isdigit() for char in password)
 
 
+	
 	errors = {
 		"Too short (min 8 characters)": length_error,
 		"Must contain at least one uppercase": uppercase_error,
